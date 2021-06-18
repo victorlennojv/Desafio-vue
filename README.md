@@ -25,6 +25,7 @@
 
 ### Avaliação do desafio
 - O código será avaliado em relação a manutenabilidade, organização (de pastas e código), componentização, limpeza e clareza do código e o resultado final.
+- Faça um fork do repositório e depois mande uma pull request para cá
 
 Qualquer dúvida pode mandar um e-mail para business.gustavo.freitas@gmail.com
 
