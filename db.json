@@ -1,0 +1,52 @@
+{
+    "users": [
+        { 
+            "id": 1,
+            "name": "Victor Almeida",
+            "email": "jpvvictor@hotmail.com",
+            "type": "manager", 
+            "sales": 0 
+        },
+        {
+            "id": 2,
+            "name": "Fulano Doe",
+            "email": "fulanodoe@hotmail.com",
+            "type": "seller",
+            "sales": 0
+        }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "name": "Mercadoria 1",
+            "quantity": 40,
+            "price": 45.00
+        },
+        
+        {
+            "id": 2,
+            "name":"Mercadoria 2",
+            "quantity": 15,
+            "price": 15.00
+        },
+        {
+            "id": 3,
+            "name":"Mercadoria 3",
+            "quantity": 10,
+            "price": 205.00
+        },
+        {
+            "id": 4,
+            "name":"Mercadoria 4",
+            "quantity": 25,
+            "price": 300.00
+        },
+        {
+            "id": 5,
+            "name":"Mercadoria 5",
+            "quantity": 4,
+            "price": 12.00
+        }
+    ]
+}

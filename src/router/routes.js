@@ -2,23 +2,24 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('layouts/LoginLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '', name:'login', component: () => import('src/pages/Login.vue') }
     ]
   },
     {
     path: '/seller',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/seller/Index.vue') }
+      { path: '', name:'seller' ,component: () => import('pages/seller/Index.vue') },
+      { path: '/seller/products', name:'products' ,component: () => import('pages/seller/Products.vue') }
     ]
   },
     {
     path: '/manager',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/manager/Index.vue') }
+      { path: '', name:'manager', component: () => import('pages/manager/Index.vue') }
     ]
   },
 
