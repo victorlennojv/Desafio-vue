@@ -1,7 +1,7 @@
 <template>
   <div class="bg-third row justify-center">
     <div class="col-12 col-sm-12 col-md-3 text-center">
-      <SellerProfile />
+      <UserProfile />
       <q-card class="q-ma-md q-pa-md">
         <q-btn
           color="primary"
@@ -26,13 +26,13 @@
 
 <script>
 import ListProducts from "src/components/ListProducts.vue";
-import SellerProfile from "src/components/seller/SellerProfile.vue";
+import UserProfile from "src/components/seller/UserProfile.vue";
 import { mapActions, mapState } from "vuex";
 
 export default {
   components: {
     ListProducts,
-    SellerProfile,
+    UserProfile,
   },
 
   mounted() {

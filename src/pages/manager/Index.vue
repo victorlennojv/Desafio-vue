@@ -1,17 +1,17 @@
 <template>
   <div class="bg-third row wrap justify-center">
     <div class="col-12 col-sm-12 col-md-3 wrap text-center">
-      <SellerProfile />
+      <UserProfile />
     </div>
   </div>
 </template>
 
 <script>
-import SellerProfile from "src/components/seller/SellerProfile.vue";
+import UserProfile from "src/components/seller/UserProfile.vue";
 
 export default {
   components: {
-    SellerProfile,
+    UserProfile,
   },
 };
 </script>

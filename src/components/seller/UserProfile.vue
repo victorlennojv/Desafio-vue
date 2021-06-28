@@ -10,7 +10,7 @@
       />
     </q-card-section>
     <q-card-section>
-      <div class="text-h6">Vendedor:</div>
+      <div class="text-h6">Usuário:</div>
       <div class="text-weight-bold"></div>
     </q-card-section>
     <q-card-actions class="justify-center">
